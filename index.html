@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="wolverine" data-name="Wolverine"
+                data-description="  Wolverine é um mutante de temperamento selvagem, conhecido por sua resistência inigualável e habilidades de combate excepcionais. Seu esqueleto reforçado de adamantium e suas garras letais o tornam um adversário formidável em qualquer batalha. Com uma longa história de experiência militar e um coração protetor, Wolverine é um membro valioso dos X-Men, sempre pronto para enfrentar qualquer desafio que ameace os mutantes ou a paz mundial.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+
+                <li class="personagem" id="ciclope" data-name="Ciclope" 
+                data-description="O Ciclope foi um dos primeiro líderes dos X-Men, e é conhecido por sua habilidade de emitir poderosas rajadas ópticas através de seus olhos. Ele usa um visor especial para controlar e direcionar suas explosões de energia. Com sua mente estratégica e habilidades de liderança, Ciclope é um comandante confiável e um exemplo de dedicação à causa mutante. Sua determinação e lealdade fazem dele um membro valoroso da equipe X-Men.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="Jean Grey"
+                data-description="Jean Grey é uma das mutantes mais poderosas dos X-Men. Dotada de habilidades telepáticas e telecinéticas, ela é capaz de ler mentes, influenciar pensamentos e mover objetos com o poder da telecinese. Jean também possui uma poderosa entidade conhecida como Fênix dentro de si, que amplia ainda mais seus poderes. Sua jornada é marcada por um equilíbrio delicado entre seu poder imenso e a necessidade de controlá-lo para evitar que a Fênix se torne uma força destrutiva. Jean é uma alma compassiva e uma aliada leal, tornando-se um dos pilares dos X-Men.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="Tempestade"
+                data-description="Tempestade é uma mutante com o poder de controlar o clima e os elementos. Ela pode criar ventos poderosos, controlar raios e tempestades, além de manipular a temperatura e a umidade do ambiente. Como líder dos X-Men em várias ocasiões, Tempestade exibe uma presença majestosa e uma sabedoria profunda. Seus poderes são uma manifestação direta de sua conexão com a natureza, e ela utiliza seu dom para proteger tanto os mutantes quanto o mundo em geral. Com sua força interior e habilidades impressionantes, Tempestade é uma mutante admirada e respeitada dentro e fora da equipe X-Men.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+
+                <li class="personagem" id="magneto" data-name="Magneto"
+                data-description="Magneto é um dos mutantes mais poderosos e icônicos dos X-Men. Ele possui a capacidade de controlar e manipular o magnetismo, o que lhe permite mover objetos metálicos com facilidade e gerar campos magnéticos poderosos. Magneto é conhecido por sua visão radical de proteger os mutantes, acreditando que a supremacia mutante é a única maneira de garantir a sobrevivência de seu povo. Embora seja frequentemente retratado como um antagonista, suas motivações são complexas e profundas. Magneto é um estrategista brilhante e um líder formidável, capaz de enfrentar qualquer adversário com sua incrível habilidade magnética.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+
+                <li class="personagem" id="noturno" data-name="Noturno"
+                data-description="Noturno é um mutante com uma aparência distintiva de pele azul, olhos amarelos e uma cauda preênsil. Ele possui habilidades acrobáticas incríveis, combinadas com a capacidade de se teletransportar instantaneamente de um local para outro. Noturno é conhecido por sua agilidade impressionante, permitindo-lhe realizar acrobacias espetaculares e evadir ataques com facilidade. Sua personalidade faz dele um membro extremamente carismático da equipe X-Men, trazendo alegria e otimismo mesmo nas situações mais sombrias. Noturno é um defensor incansável da coexistência pacífica entre humanos e mutantes.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="Vampira"
+                data-description=" Vampira é uma mutante com a habilidade única de absorver a energia vital e as habilidades de outros indivíduos com o toque de sua pele. Essa capacidade a torna uma força formidável, pois pode deixar seus adversários enfraquecidos ou até mesmo incapacazes de lutar. No entanto, ela deve ter cuidado para controlar sua habilidade, pois a absorção prolongada pode ser perigosa para a pessoa tocada. Além disso, Vampira também pode absorver memórias de outros seres vivos, o que a torna extremamente útil para obter informações . Sua jornada é marcada por uma busca constante por aceitação e controle de seus poderes, enquanto luta com as consequências de suas interações físicas.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince Negra"
+                data-description="Lince Negra é uma mutante com o poder de se tornar intangível, permitindo que ela atravesse objetos sólidos ou passe despercebida por inimigos. Essa habilidade também lhe confere uma agilidade e destreza sobre-humanas, tornando-a uma excelente combatente e espiã. Ela é conhecida por seu espírito jovial e inteligência aguçada, sendo uma das integrantes mais jovens e adoradas dos X-Men. Sua capacidade de phasing a torna uma infiltradora valiosa e uma aliada confiável nas missões da equipe. Com sua natureza resiliente e coração nobre, Lince Negra é uma mutante notável e inspiradora.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+
+            <img class="personagem-grande" src="./src/imagens/card-wolverine.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem"> Wolverine </h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Wolverine é um mutante de temperamento selvagem, conhecido por sua resistência inigualável e
+                    habilidades de combate excepcionais. Seu esqueleto reforçado de adamantium e suas garras letais o
+                    tornam um adversário formidável em qualquer batalha. Com uma longa história de experiência militar e
+                    um coração protetor, Wolverine é um membro valioso dos X-Men, sempre pronto para enfrentar qualquer
+                    desafio que ameace os mutantes ou a paz mundial. </p>
+            </div>
+
+
+
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
